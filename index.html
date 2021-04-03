@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bd">
+      <div class="header">
+        <h1>Convert Temperature</h1>
+      </div>
+      <div class="form">
+        <form>
+          <input type="number" name="value" placeholder="Value to convert" id="temperature-value" />
+          <div class="form-filds">
+            <label for="from-value"> FROM: </label>
+            <select name="from" id="from-value">
+              <option value="c">Celsius ºC</option>
+              <option value="f">Fahrenheit ºF</option>
+            </select>
+          </div>
+
+          <div class="form-filds">
+            <label for="to-value"> TO: </label>
+            <select name="to" id="to-value">
+              <option value="f">Fahrenheit ºF</option>
+              <option value="c">Celsius ºC</option>
+            </select>
+          </div>
+          <div class="fbutton">
+            <button id="convert">Convert</button>
+            <button id="clear">Clear</button>
+          </div>
+
+          <h3 id=result> Result: </h3>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
